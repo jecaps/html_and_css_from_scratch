@@ -1,7 +1,8 @@
-h1 {
-  color: blue;
-  font-size: 4rem;
+/* ELEMENT SELECTORS */
+body {
+  color: red;
 }
+h1,
 h2 {
-  color: cadetblue;
+  color: blue;
 }
