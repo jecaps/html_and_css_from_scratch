@@ -1,4 +1,4 @@
-/* Class Selectors */
+/* DIV SPAN */
 .green {
   color: green;
 }
@@ -6,9 +6,9 @@
   color: red;
   background: grey;
 }
-#title {
-  font-size: 40px;
+div {
+  color: red;
 }
-.lowercase {
-  text-transform: lowercase;
+span {
+  text-transform: uppercase;
 }
