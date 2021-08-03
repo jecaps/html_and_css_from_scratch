@@ -1,21 +1,18 @@
-/* RGBA */
+/* HEX values #RRGGBB */
 
 #first {
-  color: rgb(100, 123, 56);
-  background: rgba(0, 0, 0, 0.5);
+  color: rgb(162, 233, 203);
+  background: #000;
 }
 #second {
-  color: rgb(45, 88, 34);
-  background: rgba(0, 0, 0, 0.25);
+  color: #fff;
+  background: #00ff00;
 }
 #third {
-  color: rgb(255, 0, 0);
-  background: rgba(0, 0, 0, 0);
+  color: #0000ff;
+  background: #ffd700;
 }
 #fourth {
-  color: rgb(0, 0, 255);
-  background: rgba(0, 0, 0, 1);
-}
-body {
-  background: rgba(0, 254, 0, 0.75);
+  color: #008b8b;
+  background: #fff8dc;
 }
