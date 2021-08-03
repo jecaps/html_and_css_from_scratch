@@ -1,17 +1,21 @@
-/* RGB RED GREEN BLUE */
+/* RGBA */
 
 #first {
-  color: rgb(255, 0, 0);
-  background-color: rgb(0, 0, 0);
+  color: rgb(100, 123, 56);
+  background: rgba(0, 0, 0, 0.5);
 }
 #second {
-  color: rgb(0, 255, 0);
-  background: rgb(255, 255, 255);
+  color: rgb(45, 88, 34);
+  background: rgba(0, 0, 0, 0.25);
 }
 #third {
+  color: rgb(255, 0, 0);
+  background: rgba(0, 0, 0, 0);
+}
+#fourth {
   color: rgb(0, 0, 255);
-  background: rgb(100, 100, 100);
+  background: rgba(0, 0, 0, 1);
 }
 body {
-  background: rgb(100, 34, 210);
+  background: rgba(0, 254, 0, 0.75);
 }
