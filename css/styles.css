@@ -1,9 +1,11 @@
-/* ID */
-#title {
+/* Class Selectors */
+.green {
   color: green;
-  background: olive;
 }
-#footer {
+.red {
   color: red;
-  background: maroon;
+  background: grey;
+}
+.lowercase {
+  text-transform: lowercase;
 }
