@@ -1,21 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto&display=swap");
 
 /* 
-font-weight
-font-style */
+text-align
+text-indent */
 body {
   font-family: "Roboto", sans-serif;
-  font-style: italic;
+  /* text-align: right; */
 }
 .main {
   font-family: "Indie Flower", cursive;
+  text-align: center;
 }
 .subheading {
-  font-style: normal;
 }
 .one {
-  font-weight: bold;
+  text-indent: 100px;
 }
 .two {
-  font-weight: lighter;
+  text-align: left;
 }
