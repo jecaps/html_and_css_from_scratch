@@ -1,10 +1,13 @@
-/* EM Values */
+/* REM Values */
+html {
+  font-size: 32px;
+}
 div {
-  font-size: 20px;
+  font-size: 40px;
 }
 .relative {
-  font-size: 2em;
+  font-size: 2rem;
 }
 .absolute {
-  font-size: 32px;
+  font-size: 64px;
 }
