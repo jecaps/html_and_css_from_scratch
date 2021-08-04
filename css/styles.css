@@ -1,18 +1,7 @@
-/* HEX values #RRGGBB */
-
-#first {
-  color: rgb(162, 233, 203);
-  background: #000;
-}
-#second {
-  color: #fff;
-  background: #00ff00;
-}
-#third {
-  color: #0000ff;
-  background: #ffd700;
-}
-#fourth {
-  color: #008b8b;
-  background: #fff8dc;
+/* font-size, width, height, pixels */
+h1 {
+  font-size: 60px;
+  width: 200px;
+  height: 300px;
+  background: blue;
 }
