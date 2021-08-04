@@ -1,15 +1,9 @@
-/* Calc () */
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto&display=swap");
 
-* {
-  margin: 0;
+/* Google Fonts */
+body {
+  font-family: "Roboto", sans-serif;
 }
-.navbar {
-  background: blue;
-  height: 100px;
-  color: white;
-  font-size: 3rem;
-}
-.banner {
-  background: red;
-  min-height: calc(100vh - 100px);
+h1 {
+  font-family: "Indie Flower", cursive;
 }
