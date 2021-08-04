@@ -1,13 +1,12 @@
-/* REM Values */
-html {
-  font-size: 32px;
+/* VH and VW */
+
+.banner {
+  width: 50vw;
+  height: 50vh;
+  background: red;
 }
-div {
-  font-size: 40px;
-}
-.relative {
-  font-size: 2rem;
-}
-.absolute {
-  font-size: 64px;
+.header {
+  width: 100vw;
+  height: 100vh;
+  background: blue;
 }
