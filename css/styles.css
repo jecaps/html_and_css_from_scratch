@@ -1,11 +1,14 @@
-/* Display property */
+/* Horizontal Centering */
+body {
+  text-align: center;
+}
 .block {
   background: blue;
   color: white;
-  display: inline;
+  width: 150px;
+  margin: 0 auto;
 }
 .inline {
   background: red;
   color: white;
-  display: block;
 }
