@@ -1,30 +1,16 @@
 /* 
-line-height
-letter spacing
-word spacing
-text transform
-text decoration
+CSS BOX MODEL
  */
-a {
-  font-size: 40px;
-  text-decoration: none;
-}
-body {
-  text-transform: uppercase;
-}
 h1 {
-  text-transform: lowercase;
-  text-decoration: line-through;
+  background: red;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  padding-left: 25px;
+  padding-right: 50px;
 }
-.one {
-  line-height: 0.75em;
-}
-.two {
-  letter-spacing: 5px;
-  text-decoration: overline;
-  line-height: 2.5em;
-}
-.three {
-  word-spacing: 20px;
-  text-decoration: underline;
+p {
+  background: blue;
+  /* padding: 50px; */
+  /* padding: 30px 60px; */
+  padding: 20px 40px 60px 10px;
 }
