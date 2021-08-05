@@ -1,16 +1,19 @@
 /* 
 CSS BOX MODEL
  */
+* {
+  margin: 0;
+}
 h1 {
   background: red;
-  padding-top: 30px;
-  padding-bottom: 60px;
-  padding-left: 25px;
-  padding-right: 50px;
+  padding-top: 20px;
+  margin: 30px;
 }
 p {
   background: blue;
-  /* padding: 50px; */
+  padding: 20px;
+  /* margin-top: 0; */
+  margin: 100px 20px 20px 50px;
   /* padding: 30px 60px; */
-  padding: 20px 40px 60px 10px;
+  /* padding: 20px 40px 60px 10px; */
 }
