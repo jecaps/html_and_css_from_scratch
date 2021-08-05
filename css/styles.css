@@ -1,26 +1,13 @@
-/* 
-display: none
-opacity:0
-visibility:hidden
- */
-
 div {
-  background: blue;
-  margin: 10px;
-  color: white;
+  height: 400px;
+  color: red;
 }
-.none {
-  display: none;
+.big_img {
+  background: url(/css/images/big.jpeg);
 }
-.opacity {
-  opacity: 1;
+.small_img {
+  background: url(/css/images/small.jpg);
 }
-.opacity-5 {
-  opacity: 0.5;
-}
-.opacity-0 {
-  opacity: 0;
-}
-.visibility {
-  visibility: hidden;
+.folder_img {
+  background: url(/css/images/folder_image.jpeg);
 }
