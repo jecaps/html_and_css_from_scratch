@@ -1,22 +1,9 @@
-/* Mobile Navbar */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-ul li {
-  list-style-type: none;
-}
-ul li a {
+/* inline block */
+a {
+  font-size: large;
+  background: blue;
+  color: white;
   text-decoration: none;
-  text-transform: capitalize;
-  letter-spacing: 2px;
-  background: black;
-  color: orange;
-  display: block;
-  padding: 10px 10px;
-  margin: 10px;
+  margin: 50px;
+  display: inline-block;
 }
