@@ -1,17 +1,18 @@
-/* Last Rule Order */
+/* background position */
 div {
   height: 400px;
   color: red;
 }
 .big_img {
   background: url(/css/images/big.jpeg);
-  background-repeat: round;
   background-size: cover;
+  /* background-position: center; */
 }
 .small_img {
   border: 2px solid red;
   background: url(/css/images/small.jpg);
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 70% 100%;
 }
 .folder_img {
   background: url(/css/images/folder_image.jpeg);
