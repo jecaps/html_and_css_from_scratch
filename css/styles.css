@@ -21,3 +21,25 @@ div {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
     url(/css/images/big.jpeg) center/cover no-repeat fixed;
 }
+.colorzilla {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#27c8d1+0,207cca+51,6770bf+100&0.55+0,1+100 */
+  background: -moz-linear-gradient(
+    left,
+    rgba(39, 200, 209, 0.55) 0%,
+    rgba(32, 124, 202, 0.78) 51%,
+    rgba(103, 112, 191, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    left,
+    rgba(39, 200, 209, 0.55) 0%,
+    rgba(32, 124, 202, 0.78) 51%,
+    rgba(103, 112, 191, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    rgba(39, 200, 209, 0.55) 0%,
+    rgba(32, 124, 202, 0.78) 51%,
+    rgba(103, 112, 191, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8c27c8d1', endColorstr='#6770bf',GradientType=1 ); /* IE6-9 */
+}
