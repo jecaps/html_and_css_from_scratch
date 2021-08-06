@@ -5,17 +5,16 @@ div {
 }
 .big_img {
   background: url(/css/images/big.jpeg);
-  background-repeat: no-repeat;
+  background-repeat: round;
+  background-size: cover;
 }
 .small_img {
   border: 2px solid red;
   background: url(/css/images/small.jpg);
-  background-repeat: repeat;
-  background-repeat: no-repeat;
-  background-repeat: repeat-x;
-  background-repeat: repeat-y;
-  background-repeat: space;
+  background-size: cover;
 }
 .folder_img {
   background: url(/css/images/folder_image.jpeg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
