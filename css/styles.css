@@ -1,12 +1,20 @@
+/* Last Rule Order */
 div {
   height: 400px;
   color: red;
 }
 .big_img {
   background: url(/css/images/big.jpeg);
+  background-repeat: no-repeat;
 }
 .small_img {
+  border: 2px solid red;
   background: url(/css/images/small.jpg);
+  background-repeat: repeat;
+  background-repeat: no-repeat;
+  background-repeat: repeat-x;
+  background-repeat: repeat-y;
+  background-repeat: space;
 }
 .folder_img {
   background: url(/css/images/folder_image.jpeg);
