@@ -1,16 +1,22 @@
-.banner {
-  border: 5px solid red;
-  padding: 10px;
-  overflow: hidden;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
+div {
+  float: left;
+  height: 400px;
+  width: 33.33%;
+}
 .one {
-  float: right;
+  background: red;
 }
 .two {
-  float: left;
-  height: 300px;
+  background: blue;
 }
-p {
+.three {
+  background: green;
+}
+h1 {
   clear: both;
 }
