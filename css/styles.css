@@ -5,13 +5,13 @@ div {
 }
 .one {
   background: red;
-  transform: scaleX(2);
+  transform: rotateX(80deg);
 }
 .two {
   background: green;
-  transform: scaleY(2);
+  transform: rotateZ(135deg);
 }
 .three {
   background: blue;
-  transform: scale(1.5, 0.5);
+  transform: rotateY(80deg);
 }
