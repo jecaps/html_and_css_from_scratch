@@ -1,13 +1,18 @@
-:root {
-  background: grey;
-  font-size: 150%;
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
 }
-h1 {
-  font-size: 3rem;
+.one {
+  background: red;
+  transform: translateX(50%);
 }
-.absolute {
-  font-size: 1.5rem;
+.two {
+  background: green;
+  transform: translateY(30px);
 }
-.responsive {
-  font-size: 24px;
+.three {
+  background: blue;
+  /* transform: translateX(75px); */
+  transform: translate(100px, 155px);
 }
