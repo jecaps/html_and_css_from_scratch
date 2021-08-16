@@ -3,22 +3,20 @@ div {
   height: 150px;
   display: inline-block;
 }
+div:hover {
+  background: cadetblue;
+}
 .one {
   background: red;
-  transform: skewX(40deg);
 }
 .two {
   background: green;
-  transform: skewY(20deg);
 }
 .three {
   background: blue;
+  transition-property: background, border-radius;
+  transition-duration: 3s, 2s;
 }
-img {
-  margin-left: 75px;
-  /* transform: skewX(20deg); */
-  /* transform: skewX(-20deg); */
-  /* transform: skewY(20deg); */
-  /* transform: skewY(-20deg); */
-  transform: skew(40deg, -20deg);
+.three:hover {
+  border-radius: 50%;
 }
