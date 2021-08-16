@@ -5,13 +5,20 @@ div {
 }
 .one {
   background: red;
-  transform: rotateX(80deg);
+  transform: skewX(40deg);
 }
 .two {
   background: green;
-  transform: rotateZ(135deg);
+  transform: skewY(20deg);
 }
 .three {
   background: blue;
-  transform: rotateY(80deg);
+}
+img {
+  margin-left: 75px;
+  /* transform: skewX(20deg); */
+  /* transform: skewX(-20deg); */
+  /* transform: skewY(20deg); */
+  /* transform: skewY(-20deg); */
+  transform: skew(40deg, -20deg);
 }
