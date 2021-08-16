@@ -4,35 +4,27 @@ div {
   color: white;
   margin: 10px;
 }
-.transition {
-  background: red;
-  transition: all 2s linear;
-}
-.transition:hover {
-  background: tomato;
-  transform: translateX(100px);
-}
+
 .animation {
   background: blue;
-  /* animation-name: move;
-  animation-duration: 10s;
-  animation-iteration-count: infinite; */
   animation: move 5s infinite;
+  animation-fill-mode: forwards;
 }
 @keyframes move {
-  0% {
-    transform: translateX(20px);
+  0%{
+    opacity: 0;
   }
-  50% {
-    transform: translateX(100px);
-    background: violet;
+  25%{
+    transform: translateX(200px);
+    opacity: 0.25
   }
-  75% {
-    transform: translateX(-100px);
-    background: yellow;
+  50%{
+    transform: translateX(10px);
+    opacity: 1
   }
-  100% {
-    transform: translateX(20px);
-    background: green;
+  100%{
+    transform: translateX(125px);
+    opacity: 0.5
   }
+}
 }
