@@ -1,35 +1,7 @@
-/* .heading {
-  color: #f02d3a;
+.fa-home {
+  color: mediumseagreen;
 }
-.text {
-  color: #32de8a;
-}
-.main-text {
-  color: #77b6ea;
-}
-.second-heading {
-  color: #e1bb80;
-} */
-:root {
-  --primaryColor: #32de8a;
-  --secondaryColor: #77b6ea;
-  --mainTransition: all 0.4s linear;
-}
-.heading {
-  color: var(--primaryColor);
-}
-.second-heading {
-  color: var(--primaryColor);
-}
-.second-heading:hover {
-  color: var(--secondaryColor);
-}
-div {
-  --primaryRed: #f71735;
-}
-.main-text {
-  color: var(--primaryRed);
-}
-.third-heading {
-  color: var(--secondaryColor);
+.social-icon {
+  font-size: 4rem;
+  color: skyblue;
 }
