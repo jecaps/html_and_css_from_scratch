@@ -1,7 +1,15 @@
-.fa-home {
-  color: mediumseagreen;
+h1 {
+  text-shadow: 15px -16px 3px goldenrod;
 }
-.social-icon {
-  font-size: 4rem;
-  color: skyblue;
+.box {
+  width: 200px;
+  height: 100px;
+  background: gray;
+  margin: 20px;
+  transition: all 0.5s ease-in;
+}
+.box:hover {
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
